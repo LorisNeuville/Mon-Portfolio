@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description"
+        content="Je m'appelle Loris, je suis actuellement dans la formation 'Développeur Web et Web Mobile' à Lons-le-Saunier pour faire du code mon métier. ">
+    <!-- ===== CSS ===== -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="assets/favicon/Monogram-LN-Logo-Design-by-Greenlines-Studios.jpg" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <title>Mon Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a class="nav__logo" href="#"><i class="bx bx-user"></i> Loris Neuville</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#home"><i class="bx bx-home"></i> Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#about"><i class="bx bx-info-circle"></i> À propos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#portfolio"><i class="bx bx-book-content"></i> Projets</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#contact"><i class="bx bx-envelope"></i> Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="assets/Mon cv.pdf" target="_blank"><i class="bx bxs-file bx-sm"></i>
+                            Mon CV</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title">HE<br> LLO.</h1>
+                <div class="home__scroll">
+                    <a class="home__scroll-link" href="#about"><i class='bx bx-up-arrow-alt'></i>Défiler vers le bas</a>
+                    <div class="image-container">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">Ma présentation</h2>
+            <div class="about__container bd-grid">
+                <div class="ab">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">Loris Neuville</h2>
+                    <span class="about__profession"></span>
+                    <p class="about__text">Voici mes réseaux ci-dessous.</p>
+                    <div class="about__social">
+                        <a class="about__social-icon" href="https://github.com/LorisNeuville" target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                        <a class="about__social-icon" href="https://www.linkedin.com/in/loris-neuville-fr"
+                            target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <img src="assets/img/1ere_intégration.png" alt="">
+                    <div class="portfolio__link">
+                        <a href="projets/01 - INITIATION INTEGRATION/premiere-integration.html"
+                            target="_blank" class="portfolio__link-name">Plus de détails</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/2eme_intégration.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="projets/02 - INITIATION-SASS/integration-sass.html"
+                            target="_blank" class="portfolio__link-name">Plus de détails</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/3eme_intégration.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="projets/03 - HTML - FRAMEWORK CSS/integration-bootstrap.html"
+                            target="_blank" class="portfolio__link-name">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle"></h3>
+                </div>
+                <form action="traitement_formulaire.php" class="contact__form" method="post">
+                    <div class="contact__inputs">
+                        <input class="contact__input" placeholder="Nom" required="" type="text">
+                        <input class="contact__input" placeholder="Email" required="" type="email">
+                    </div>
+                    <textarea class="contact__input" cols="0" id="" name="message" placeholder="Entrez votre message"
+                        rows="10"></textarea>
+                    <button class="contact__button button-icon button-icon--no-border" type="submit">
+                        <img src="assets/img/enveloppe-pixel-art.png" alt="Enveloppe">
+                    </button>
+                </form>
+            </div>
+        </section>        
+    </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Accueil</a></li>
+                    <li><a href="#about" class="footer__link">À propos</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#Contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">Réseaux</h2>
+                <a href="https://github.com/LorisNeuville" target="_blank" class="footer__social"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/loris-neuville-fr" target="_blank" class="footer__social"><i
+                        class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <div class="footer-cp">
+                <a>&copy;
+                    <script>document.write(new Date().getFullYear())</script> Loris Neuville
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
